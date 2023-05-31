@@ -26,7 +26,7 @@
                     type="text" 
                     name="creci" 
                     placeholder="Digite seu Cresci"
-                    minlength="2"
+                    id="creci" minlength="2"
                     value="<?=(!empty($corretor) ? $corretor->creci : '')?>"
                 >
             </div>
@@ -56,6 +56,11 @@
             document.getElementById('cpf'),
             {
                 mask:'00000000000'
+            }
+        )
+        IMask(
+            document.getElementById('creci'),{
+                mask: Number
             }
         )
 </script>
