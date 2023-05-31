@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+input[type = 'text'] {
+    padding:4px;
+}
+
+.container {
+    text-align:center;
+}
+.container-form {
+    width:400px;
+    margin:auto;
+    padding:0
+}
+
+.container-form-col-input-cpf {
+    margin-right: 16px;
+}
+.container-form-col-input-name {
+    margin: 14px 0;
+    width: 94%;
+}
+.container-form-col-input-submit {
+    width: 94%;
+    background-color:dimgrey;
+    color:white;
+    padding:4px;
+    cursor:pointer
+}
+
+.container-form-col-input-submit:hover {
+    background-color:rgb(54, 53, 53);
+}
+
+table {
+    margin: 21px auto;
+}
+table tr th, table tr td {
+    border:1px solid #000
+}
