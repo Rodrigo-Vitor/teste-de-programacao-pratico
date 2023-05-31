@@ -1,3 +1,17 @@
+## Teste Teste de Programação Prático
+* Crie uma página HTML com formulário cujo campos: CPF, Creci e Nome e um botão “Enviar”
+* Fazer validações do formulário do jeito que achar melhor, seja usando HTML5 ou JavaScript. Sendo obrigatório que o CPF tenha 11 caracteres, Creci e Nome tenha pelo
+menos 2 caracteres
+* Crie um banco de dados com uma tabela chamada “corretores” para cadastrar os dados
+abaixo, com os campos: id, nome, cpf, creci
+* Grave os dados ao enviar o formulário, após ser cadastrado redirecione para a tela do
+formulário novamente com ele limpo.
+* Fazer os dados da tabela corretores aparecerem em uma tabela abaixo do formulário.
+* Dentro da tabela, apresente um botão de Editar e Excluir, para cada registro
+* Fazer uma função de Excluir um registro.
+
+<hr>
+
 ## Instalação
 Você pode clonar este repositório OU baixar o .zip
 
@@ -27,7 +41,7 @@ O ideal é criar um ***alias*** específico no servidor que direcione diretament
 namespace src\models;
 use \core\Model;
 
-class Usuario extends Model {
+class Corretor extends Model {
 
 }
 ```"# teste-de-programacao-pratico" 
